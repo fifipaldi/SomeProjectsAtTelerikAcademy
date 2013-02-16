@@ -1,0 +1,75 @@
+﻿body {
+    background-color: #4e4e4e;
+}
+
+.mainDiv {
+    width: 660px;
+    height: 310px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    background-color: #3b3b3b;
+    margin-top: 50px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.imagesAndForms {    
+    color: white;
+    font-size: 1.5em;
+    background-color: #333;
+    height: 40px;
+    padding: 10px;
+    box-shadow: inset 0 -8px 10px #292929;   
+    padding-top: 20px;
+    
+}
+img {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+input[type=text] {
+    margin-right: 15px;   
+    padding-left: 15px;    
+    width: 140px;
+}
+
+input[type=button] {
+    background-image: url(../img/TaskThree/button.png);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 54px;
+    height: 26px;
+    color: white;    
+}
+
+span {
+    margin-right: 10px;
+    margin-left: 15px;   
+}
+
+.textDiv {
+    
+    padding-left: 15px;
+    padding-top: 5px;
+    color: #bab1b1;   
+}
+
+h1 {
+    color: #ffdb16;
+    font-weight: normal;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+p {
+    padding: 0;
+    margin: 0;
+    font-family: Calibri;
+    font-size: 0.95em;
+    width: 90%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}

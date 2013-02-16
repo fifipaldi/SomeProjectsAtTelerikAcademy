@@ -1,0 +1,85 @@
+﻿body, div, p, ul, ol, li {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #343434;
+}
+
+.mainDiv {
+    background-color: #eee;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 50px;
+    /*width: 460px;*/
+    width: 430px;
+    /*height: 610px;*/
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: Dotum;
+    font-size: 1.3em;
+}
+
+.nestedDiv {
+    background-color: #fff;
+    border: 1px solid #a3a3a3;
+    margin-top: 40px;
+    padding: 15px;
+    height: 100px;
+}
+
+img {
+    float: left;    
+    border: 1px solid #a3a3a3;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.listen {
+    background-image: url(../img/TaskTwo/LargerButton.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 77px;
+    height: 23px;
+    color: white;
+    border: 2px solid #9d1d1d;
+    border-style: outset;
+    margin-right: 3px;
+}
+
+.add {
+    background-image: url(../img/TaskTwo/SmallerButton.png);
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 23px;
+    color: white;
+    border: 2px solid #9d1d1d;
+    border-style: outset;
+}
+
+.buttonDiv1 {
+    float: right;
+    margin-top: 40px;
+}
+.buttonDiv2 {
+    float: right;
+    margin-top: 25px;
+}
+.buttonDiv3 {
+    float: right;
+    margin-top: 30px;
+}
+

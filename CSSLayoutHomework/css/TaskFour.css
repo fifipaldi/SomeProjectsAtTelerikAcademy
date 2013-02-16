@@ -1,0 +1,140 @@
+﻿body, aside, section, ul, li, div, img {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 15px;
+    width: 1000px;
+    height: 700px;
+    border: 2px solid grey;
+    background-color: #f1f1f1;
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+.leftSide {
+    float: left;
+    height: 800px;
+    width: 180px;
+}
+
+.rightSide {
+    float: right;
+    height: 800px;
+    width: 180px;
+}
+
+section {
+    width: 620px;
+    height: 640px;
+    border: 2px solid grey;
+    background-color: #fff;
+    position: absolute;
+    left: 196px;
+    margin: 3px;
+    padding: 5px;
+}
+
+#imgHome {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 2px;
+}
+
+.leftSide ul {
+    list-style-type: none;
+    margin-bottom: 15px;
+    margin-left: 3px;
+}
+
+    .leftSide ul li:first-of-type {
+        color: darkred;
+        font-weight: bold;
+    }
+
+.rightSide ul {
+    list-style-type: none;
+    text-align: center;
+    color: #a32020;
+    text-decoration: underline;
+}
+
+    .rightSide ul li {
+        border: 2px solid grey;
+        margin-top: 3px;
+        margin-right: 3px;
+        padding-bottom: 5px;
+    }
+
+input[type=text] {
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=button] {
+    font-weight: bold;
+}
+
+.leftSideSpan {
+    text-decoration: none;
+    color: white;
+    background-color: #808080;
+    display: inline-block;
+    font-weight: bold;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+#imgStyles {
+    margin-top: 5px;
+    border: 1px solid grey;
+}
+
+.prevButton {
+    background-color: white;
+    background-image: url(../img/TaskFour/leftArrow.png);
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+.nextButton {
+    background-color: white;
+    background-image: url(../img/TaskFour/rightArrow.png);
+    width: 100px;
+    border: 1px solid black;
+}
+
+h1 {
+}
+
+hr {
+    border: 1px solid grey;   
+    width: 620px;    
+}
+
+.sectionSpan {
+    color: white;
+    font-weight: bold;
+    background-color: #808080;
+    display: block;   
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5px;   
+}
+.cssImg {
+    float: left;
+    margin: 15px;
+    margin-left: 0;
+
+}
+.boldP {
+    font-weight: bold;
+}
+.redSectionText {
+    color: #a32020;
+    text-decoration: underline;
+}
