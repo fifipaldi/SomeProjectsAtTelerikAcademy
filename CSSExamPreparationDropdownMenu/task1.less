@@ -1,0 +1,100 @@
+﻿body, header, nav, ul, li, a, div, span {
+    padding: 0;
+    margin: 0;
+}
+
+.gradient (@fromColor, @toColor) {
+    background: #103046;
+    background: -moz-linear-gradient(top, @fromColor 0%, @toColor 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@fromColor), color-stop(100%,@toColor));
+    background: -webkit-linear-gradient(top, @fromColor 0%,@toColor 100%);
+    background: -o-linear-gradient(top, @fromColor 0%,@toColor 100%);
+    background: -ms-linear-gradient(top, @fromColor 0%,@toColor 100%);
+    background: linear-gradient(to bottom, @fromColor 0%,@toColor 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@fromColor', endColorstr='@toColor',GradientType=0 );
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#103046', endColorstr='#80ceff',GradientType=0 );*/
+}
+
+body {
+    font-family: Arial;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#wrapper {
+    width: 960px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+header {
+    .gradient(#103046,#80ceff);
+    height: 150px;
+    padding-top: 50px;
+    padding-left: 50px;
+
+    nav {
+
+        ul {
+            position: relative;
+
+            li {
+                display: inline-block;
+                margin-right: 5px;
+                padding: 5px 10px;
+
+                &:hover {
+                    background-color: rgba(25, 78, 116, 0.72);
+                    border-radius: 15px;
+                }
+
+                &.selected {
+                    background-color: rgba(34, 64, 85, 0.85);
+                    border-radius: 15px;
+                }
+
+                    &.selected > ul {
+                        display: inline-block;
+                        position: absolute;
+                        left: 0;
+
+                        & li:hover {
+                            background-color: rgba(25, 78, 116, 0.72);
+                            border-radius: 15px;
+
+                            ul {
+                                position: absolute;
+                                display: block;
+                                .gradient (#feffff, #80ceff);
+                                border-radius: 15px;
+                                padding: 15px 19px;
+                                padding-right: 18px;
+                                margin-left: -10px;
+
+                                li {
+                                    display: block;
+                                    margin: 0 10px;
+                                    border-bottom: 1px solid black;
+                                    padding: 5px 5px;
+
+                                    &:last-of-type {
+                                        border: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                ul {
+                    display: none;
+                }
+            }
+        }
+    }
+}
