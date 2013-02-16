@@ -1,0 +1,151 @@
+﻿body,
+ul,
+li,
+a,
+img,
+div,
+span,
+fieldset,
+legend,
+label,
+form,
+button {
+  padding: 0;
+  margin: 0;
+}
+body #wrapper {
+  width: 1024px;
+  margin-left: 50px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+}
+body .current {
+  font-weight: bold;
+}
+body .btn-login-form {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+body .btn-login-form:hover {
+  color: grey;
+}
+body .invisible {
+  display: none;
+}
+body form {
+  width: 450px;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 1%, #595959 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #ffffff), color-stop(100%, #595959));
+  background: -webkit-linear-gradient(top, #ffffff 1%, #595959 100%);
+  background: -o-linear-gradient(top, #ffffff 1%, #595959 100%);
+  background: -ms-linear-gradient(top, #ffffff 1%, #595959 100%);
+  background: linear-gradient(to bottom, #ffffff 1%, #595959 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#595959', GradientType=0);
+}
+body form fieldset {
+  border: 5px solid black;
+  border-radius: 5px;
+  text-align: right;
+  padding-right: 80px;
+  padding-top: 15px;
+}
+body form fieldset legend {
+  font-size: 1.7em;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 10px;
+}
+body form fieldset label {
+  font-weight: bold;
+}
+body form fieldset input {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin: 3px;
+  border: none;
+  background: #040404;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #040404 0%, #a3a3a3 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #040404), color-stop(100%, #a3a3a3));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #040404 0%, #a3a3a3 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #040404 0%, #a3a3a3 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #040404 0%, #a3a3a3 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #040404 0%, #a3a3a3 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#040404', endColorstr='#a3a3a3', GradientType=0);
+  /* IE6-9 */
+
+}
+body form fieldset button {
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 1.2em;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  background: #040404;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #040404 0%, #ffffff 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #040404), color-stop(100%, #ffffff));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #040404 0%, #ffffff 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #040404 0%, #ffffff 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #040404 0%, #ffffff 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #040404 0%, #ffffff 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#040404', endColorstr='#ffffff', GradientType=0);
+  /* IE6-9 */
+
+}
+body form fieldset button:hover {
+  background: #040404;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #040404 0%, #c9c9c9 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #040404), color-stop(100%, #c9c9c9));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #040404 0%, #c9c9c9 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #040404 0%, #c9c9c9 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #040404 0%, #c9c9c9 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #040404 0%, #c9c9c9 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#040404', endColorstr='#c9c9c9', GradientType=0);
+  /* IE6-9 */
+
+}
